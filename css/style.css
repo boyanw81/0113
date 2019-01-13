@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+header.jumbotron {
+  height: 500px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(http://5.1015600.com/2016/pic/000/378/ab77a9190962b07bf385e151cd8f6d10.jpg);
+  background-size: cover;
+  mix-blend-mode: multiply;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 100px 100px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #fff;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://i.kfs.io/album/global/21441512,0v1/fit/500x500.jpg);
+  height: 350px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+section#section_ask section#section_about img {
+  width: 150%;
+}
+section#section_ask section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
